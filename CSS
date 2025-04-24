@@ -1,0 +1,27 @@
+
+/* colcoando a pagina toda em preto */
+* {
+    margin: 0; /*Remove todas as margens externas.*/
+    padding: 0; /*Remove todos os espaçamentos internos.*/
+    box-sizing: 0; /*Faz com que width e height incluam bordas e padding no cálculo total do elemento.*/
+    background: black; /*Define o fundo preto.*/
+}
+
+/* configurando o copo da pagina */
+header {
+    display: flex; /* contêiner flex */
+    justify-content: center; /* centraliza no eixo principal */
+}
+/* configurando o conteudo principal */
+main {
+    display: flex; /* contêiner flex */
+    justify-content: center; /* centraliza no eixo principal */
+    align-items: center; /* centraliza no eixo transversal */
+    height: 90vh; /* altura de 90% da tela */
+}
+/* Configurando o Rodapé, o final do que aparece na tela */
+footer {
+    display: flex; /* contêiner flex */
+    justify-content: center;    /* centraliza no eixo principal */
+}
+    
